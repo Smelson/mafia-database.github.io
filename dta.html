@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="Мафия, DTA, DataXTractor, моддинг, статьи, информация"/>
+		<meta name="description" content="Главная информация о .DTA файлах игры."/>
+		<meta name="author" lang="ru" content="Smelson"/>
+		<title>.DTA файлы | Mafia Database</title>
+		<link href="images/mafia.ico" rel="shortcut icon" type="image/x-icon" />
+	   	<link rel="stylesheet" href="styles/style.css"/>
+	   	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+	</head>
+		<body>
+			<header>
+			<a href="articles.html" title="Назад" class="text">Назад</a>
+			</header>
+			<h1>DTA</h1>
+			<p>Заархивированные ресурсы Мафии. <br>  
+				  Расположены в корневой папке игры.</p>
+			<hr>
+			<h2>Моддинг</h2>
+			<p>Все, что с ними можно сделать, это: распаковать утилитами MafiaDataXtractor*, <br>
+			      DTAUnpacker*, плагином для Total Commander'a Game Archive UnPacker* <br>
+				  и запаковать файлы мода с помощью DTAs packer*. </p>
+			<p>При загрузке игра тестирует наличие dta файлов, <br>
+				но потом ищет модели, текстуры, звуки и т.д. в папках models, maps, sounds...<br>
+				и лишь потом читает недостающие из родных DTA.</p>
+				<a href="files/MafiaDataXtractor.exe" title="Скачать MafiaDataXtractor" class="text">*MafiaDataXtractor</a> <br>
+				<a href="files/DTA_unpacker.rar" title="Скачать DtaUnpacker" class="text">*DtaUnpacker</a> <br>
+				<a href="files/Game Archive UnPacker.rar" title="Скачать Game Archive UnPacker" class="text">*Game Archive UnPacker</a> <br>
+				<a href="files/DTAs_packer.exe" title="Скачать DTAs packer" class="text">*DTAs packer</a> <br>
+			<hr>
+			<h2>Содержимое файлов</h2>
+			    <p>Описание содержимого папок смотри в типах файлов<br>
+				Ресурсы игры версии 1.2</p>
+
+               	<li>a0.dta - ..\SOUNDS\ - звуки;</li>
+				<li>a1.dta - ..\MISSIONS\MISE-XX\ - миссии;</li>
+				<li>a2.dta - ..\MODELS\ - модели;</li>
+				<li>a3.dta - ..\ANIMATIONS\ - 169 анимаций первая часть;</li>
+				<li>a4.dta - ..\ANIMATIONS\ - 1776 aнимаций вторая часть;</li>
+				<li>a5.dta - ..\DIFF\ - описания для видеовставок chg;</li>
+				<li>a6.dta - ..\MAPS\ - текстуры;</li>
+				<li>a7.dta - ..\RECORDS\ - файлы видеороликов;</li>
+				<li>a8.dta - патч;</li>
+				<li>a9.dta - ..\SYSTEM\ - m_pravda.wav, mrseg0.sav, taxi_pas.dat;</li>
+				<li>aa.dta - ..\TABLES\ - текст;</li>
+				<li>ab.dta - ..\SOUNDS\MUSIC\ музыка;</li>
+				<li>ac.dta - ..\ANIMATIONS\ - третья часть для видеовставок;</li>
+			    <li>ISdata.dta - три текстовых файла isdata.txt, patch.txt, license.txt.</li>
+				<hr>
+				<h2>Формат файлов</h2>
+				<p>Файлы распаковываются с использованием функций rw_data.dll.<br>
+				Здесь важны ключи шифрования.</p> 
+				<img src="images/Dtakeys.jpg">
+				<script src="js/snow.js"></script>
+		</body>				
+</html>

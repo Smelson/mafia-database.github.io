@@ -1,0 +1,54 @@
+body {
+    background: url("https://pp.userapi.com/c848616/v848616933/f44b8/sAX7RJBYdpg.jpg") no-repeat top center fixed;
+    background-size: cover;
+}
+
+h1 {
+ font-family: 'Rubik', sans-serif;
+ color: white;
+}
+
+h2 {
+ font-family: 'Rubik', sans-serif;
+ color: white;
+}
+
+a {
+ font-family: 'Rubik', sans-serif;
+ color: white;
+}
+
+p {
+ font-family: 'Rubik', sans-serif;
+ color: white;
+}
+
+li {
+ font-family: 'Rubik', sans-serif;
+ color: white;
+}
+
+
+.text {
+    text-decoration: none;
+}
+
+.text:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+#page {
+    background-color: black;
+    width: 670px;
+    height: 5000px;
+}
+
+#page .url {
+    text-decoration: none;
+}
+
+#page .url:hover {
+    text-decoration: underline;
+    color: red;
+}
