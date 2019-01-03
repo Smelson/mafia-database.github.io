@@ -1,0 +1,26 @@
+{
+   "launcher": {
+      "version": "1.0.11",
+	  "url": "https://vortrex.info/lhmp/",
+      "files": "http://vortrex.info/lhmp/files/",
+      "servers": "52.28.46.54",
+      "image": "http://vortrex.info/lhmp/assets/banner1.png",
+      "image_link": "https://vortrex.info/lhmp/"
+   },
+
+   "client": {
+      "version": "1.0.5"
+   },
+
+   "files": [
+		["client.dll", "a05abaf6ef749529412c47a6e729c66d"],
+		["loader.exe", "5c20930bc65f9cd645ada2a9a1569496"],
+		["CrashHandler.exe", "d74c570b61c9167e9449097a5b9898da"],
+		["gamemap.jpg", "45f0be56feffd2c7f137a641122a6a67"],
+		["gamemap-gui.png", "1763d596e04d43bca3238edcfac67179"],
+		["loadingscreen.png", "d43f71459070a4f51d84481bbca47d16"],
+		["Game.exe", "fab31d3f317f5fa4c16776a7aa6d7eb0"],
+		["LS3DF.dll", "be2f678cf6992eb932fcb195fba64091"],
+		["opensans.ttf", "c28df5d67b8e0fd14ff07235537b1c77"]
+   ]
+}
