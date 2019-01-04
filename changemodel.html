@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="Мафия, замена, модели, статьи, информация"/>
+		<meta name="description" content="Замена модели игры — Mafia Database."/>
+		<meta name="author" lang="ru" content="Smelson"/>
+		<title>Замена модели | Mafia Database</title>
+		<link href="images/mafia.ico" rel="shortcut icon" type="image/x-icon" />
+        <link rel="stylesheet" href="styles/style.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+	</head>
+		<body>
+			<header>
+			<a href="articles.html" title="Назад" class="text">Назад</a>
+			</header>
+        <center>
+        <h1>Замена модели в игре</h1>  
+        <div id="changemodel">
+                <p>(информация со старого Вебгеймера)<br>
+
+               В заставках некоторые модели персонажей лучше, чем в режиме игры. Можно сделать так, когда мы играем за Томми и некоторые персонажи выглядели так, как в заставках.<br> 
+               Что бы это сделать надо сделать следующее:<br>
+                
+                1.Скопируйте из папки models эти файлы:<br>
+                
+                TommyDELNIKHIGH.4ds,TommyHIGH.4ds,TommyHighCOATHAT.4ds, TommyHighHAT.4ds,TommyTAXIdriverHIGH.4ds,SalieriHIGH.4ds, SalieriHIGH2.4ds,<br>
+                FrankHIGH.4ds,MorelloHIGH.4ds,PaulieHIGH.4ds, PaulieCTHIGH.4ds,RalphHIGH.4ds,SamHIGH.4ds,SamHIGHblood1.4ds, VincenzoHIGH.4ds,Sarah2.4ds.<br>
+                
+                2.Теперь переименовываем их(в порядке перечисления): 1.TommyDELNIK 2.Tommy 3.TommyCOATHAT 4.TommyHAT 5.TommyTAXIDRIVER 6.SalieriLOW 7.Salieri2 <br>
+                8.frank 9.MorelloLOW 10.Paulie 11.PaulieCOATHAT 12.Ralph 13.Sam 14.Samblood1 15.VincenzoLOW 16.Sarah2LOW <br>
+                
+                3.Переносим эти файлы в папку models и запускаем игру. Теперь модели некоторых персонажей стали более качествеными.<br>
+                
+                Мелочь, а приятно. P.S. Игра будет слегка притормаживать, ведь качественая модель весит в 2 раза больше обычной.</p>
+        </div>
+        </center>
+        <script src="js/snow.js"></script>
+        <img src="images/tree.png" class="tree_changemodel" id="music" onclick="musicFunction()"/>
+        <script>
+                var music = new Audio();
+                music.src = 'music/jinglebells.mp3'
+        
+                function musicFunction() {
+                    music.play();
+                }
+                </script>
+    </body>
+</html>
