@@ -26,6 +26,14 @@
             <a href="textures.html" title="Недоступно!" class="text">Текстуры</a>
         </center>
         <script src="js/snow.js"></script>
-        <img src="images/tree.png" class="tree_index"/>
+        <img src="images/tree.png" class="tree_index" onclick="musicFunction()" id="music"/>
+        <script>
+        var music = new Audio();
+        music.src = 'music/jinglebells.mp3'
+
+        function musicFunction() {
+            music.play();
+        }
+        </script>
     </body>
 </html>
