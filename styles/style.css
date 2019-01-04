@@ -21,6 +21,7 @@ a {
 p {
  font-family: 'Rubik', sans-serif;
  color: white;
+ line-height: 30px;
 }
 
 li {
@@ -43,6 +44,14 @@ li {
     width: 670px;
     height: 5000px;
 }
+
+
+#changemodel {
+    background-color: black;
+    width: 700px;
+    height: 800px;
+}
+
 
 #page .url {
     text-decoration: none;
@@ -73,4 +82,11 @@ li {
     height: 532px;
     position: absolute;
     top: 4500px;
+}
+
+.tree_changemodel {
+    width: 415px;
+    height: 532px;
+    position: absolute;
+    top: 400px;
 }
