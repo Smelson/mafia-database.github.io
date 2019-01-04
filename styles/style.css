@@ -52,3 +52,25 @@ li {
     text-decoration: underline;
     color: red;
 }
+
+.tree_index {
+    width: 415px;
+    height: 532px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.tree_utilities {
+    width: 415px;
+    height: 532px;
+    position: absolute;
+    bottom: 20px;
+    right: 80px;
+}
+
+.tree_notes {
+    width: 415px;
+    height: 532px;
+    position: absolute;
+    top: 4500px;
+}
