@@ -29,6 +29,14 @@
 			<a href="https://yadi.sk/d/uzphvhqL3Xn5ns" target= "_blank" title="Скачать Mafia русский проект 1.0." class="text">Mafia русский проект 1.0.</a> <br>
 			</center>
 			<script src="js/snow.js"></script>
-			<img src="images/tree.png" class="tree_index"/>
+			<img src="images/tree.png" class="tree_index" id="music" onclick="musicFunction()"/>
+        <script>
+        var music = new Audio();
+        music.src = 'music/jinglebells.mp3'
+
+        function musicFunction() {
+            music.play();
+        }
+        </script>
 		</body>
 </html>

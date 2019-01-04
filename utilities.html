@@ -89,6 +89,14 @@
 			<a href="files/SoundMaker.7z" title="Скачать Sound Maker"class="text">Sound Maker</a> <br>
 			<a href="files/OGGConv.7z" title="Скачать OGG Converter"class="text">OGG Converter</a> <br>
 			<script src="js/snow.js"></script>
-			<img src="images/tree.png" class="tree_utilities"/>
+			<img src="images/tree.png" class="tree_utilities" id="music" onclick="musicFunction()"/>
+			<script>
+				var music = new Audio();
+				music.src = 'music/jinglebells.mp3'
+		
+				function musicFunction() {
+					music.play();
+				}
+				</script>
 		</body>
 </html>
