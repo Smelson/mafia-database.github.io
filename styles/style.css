@@ -21,8 +21,8 @@ a {
 p {
  font-family: 'Rubik', sans-serif;
  color: white;
- line-height: 30px;
 }
+
 
 li {
  font-family: 'Rubik', sans-serif;
@@ -32,6 +32,10 @@ li {
 
 .text {
     text-decoration: none;
+}
+
+.cm {
+    line-height: 30px;
 }
 
 .text:hover {
@@ -89,4 +93,18 @@ li {
     height: 532px;
     position: absolute;
     top: 400px;
+}
+
+.tree_animflag {
+    width: 415px;
+    height: 532px;
+    position: absolute;
+    top: 2500px;
+    left: 10px;
+}
+
+#animflag {
+    background-color: black;
+    width: 670px;
+    height: 3000px;
 }

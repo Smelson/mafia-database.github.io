@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="Мафия, статьи, анимация, моддинг, информация"/>
+	<meta name="description" content="Главная страница портала — Mafia Database."/>
+	<meta name="author" lang="ru" content="Smelson"/>
+	<title>Mafia Database</title>
+	<link href="images/mafia.ico" rel="shortcut icon" type="image/x-icon" />
+	<link rel="stylesheet" href="styles/style.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+</head>
+    <body>
+        <header>
+            <a href="articles.html" title="Назад" class="text">Назад</a>
+        </header>
+        <center>
+        <div id="animflag">
+            <h1>Создание анимированного флага в игре Mafia.</h1>
+            <p class="cm">Все наверно видели красивый, развивающийся на ветру флаг в 10 и 14 миссиях. Так как же сделать такой же у себя?<br>
+
+                            Имея какой- никакой опыт многие просто брали модель флага и создавали в БСВ флаг, однако он был совершенно обычным, <br>
+                            не «порхал» на ветру. Что бы все получилось как следует, нужно сделать еще несколько важных действий.<br>
+
+                            Что бы во всем разобраться, следует залезть в файл scene.bin в 10 миссии и посмотреть что там. <br>
+                            Мы находим 2 актора с нужными нам моделями флагов- xvlajka1.i3d. Имена этих акторов xvlajka и xvlajka2. Все это запоминаем.<br>
+
+                            Теперь открываем scene.bin нужной нам миссии и вставляем, куда нам нужно 2 флага с точно такими же названиями ( иначе потом работать не будет)<br>
+
+                            1 флаг- xvlajka и модель xvlajka1.i3d<br>
+
+                            2 флаг xvlajka2 и модель xvlajka1.i3d<br>
+            <img src="images/Animflag1.png">
+            <img src="images/Animflag2.png" width="614px">
+            <p class="cm">Если вам не нужен 2 флаг, просто уберите его в другой конец карты, его там никто не найдет.)<br>
+
+                          Практически все! Остается сделать решающий шаг. Заходим в папку MISSIONS- MISE10-LETISTE и копируем оттуда файл rmorf.bin.</p><br>
+            <img src="images/Animflag3.png">
+            <p class="cm">Готово! Можем заходить в игру и любоваться красивым флагом, развивающимся на ветру.</p><br>
+            <img src="images/Animflag4.png">
+            <img src="images/Animflag5.png">
+            <ul>
+                <li>Автор идеи: Кайзер</li><br>
+                <li>Автор статьи: Экзорцист</li><br>
+                <li>Автор материала: Фаерфокс.</li><br>
+            </ul>
+            </div>
+        </center>
+        <script src="js/snow.js"></script>
+        <img src="images/tree.png" class="tree_animflag" onclick="musicFunction()" id="music"/>
+        <script>
+        var music = new Audio();
+        music.src = 'music/jinglebells.mp3'
+
+        function musicFunction() {
+            music.play();
+        }
+        </script>
+        <noscript>
+            <center>
+            <h1>Ваш браузер не поддерживает JavaScript!</h1>
+            </center>
+        </noscript>
+</html>
